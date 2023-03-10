@@ -26,7 +26,8 @@ namespace LineComparision
             int y4 = Convert.ToInt32(Console.ReadLine());
             CalculateLength calculateLength1 = new CalculateLength(x3, y3, x4, y4);
             double line2 = calculateLength.calculate();
-            calculateLength1.equalChceck(line1, line2);
+            calculateLength1.equalCheck(line1, line2);
+            calculateLength1.lineCompare(line1, line2);
         }
     }
 }
